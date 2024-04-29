@@ -1,0 +1,51 @@
+.mainBg {
+    -fx-background-color: #BA4949;
+    -fx-transition: -fx-background-color 1s;
+}
+
+.mainBgBreak {
+    -fx-background-color: #38858a;
+}
+
+.vBoxTimerContainer {
+    -fx-background-color: #ffffff1a;
+    -fx-max-width: 480px;
+}
+
+.lblTimer, .lblStatus {
+    -fx-font-weight: bold;
+    -fx-text-fill: "#fff";
+    -fx-font-family: "Arial Rounded MT Bold";
+}
+
+.lblTimer {
+    -fx-font-size: 120px;
+}
+
+.lblStatus {
+    -fx-font-size: 2em;
+}
+
+.btnStatus {
+    -fx-border: none;
+    -fx-background-color: transparent;
+    -fx-font-size: 2em;
+    -fx-text-fill: #fff;
+}
+
+.btnTimer {
+    -fx-padding: 0 12px;
+    -fx-border: none;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ba4949;
+    -fx-min-width: 200px;
+    -fx-min-height: 55px;
+}
+
+.btnTimerBreak {
+    -fx-text-fill: #38858a;
+}
